@@ -1,0 +1,465 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Integration.Test/Api.Integration.Test.csproj": {}
+  },
+  "projects": {
+    "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Application/Application.csproj",
+        "packagesPath": "/home/leandro/.nuget/packages/",
+        "outputPath": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/leandro/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.CrossCutting/CrossCutting.csproj": {
+                "projectPath": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.CrossCutting/CrossCutting.csproj"
+              },
+              "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Domain/Domain.csproj": {
+                "projectPath": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Domain/Domain.csproj"
+              },
+              "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Service/Service.csproj": {
+                "projectPath": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Service/Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.1, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[5.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.CrossCutting/CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.CrossCutting/CrossCutting.csproj",
+        "projectName": "CrossCutting",
+        "projectPath": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.CrossCutting/CrossCutting.csproj",
+        "packagesPath": "/home/leandro/.nuget/packages/",
+        "outputPath": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.CrossCutting/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/leandro/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Data/Data.csproj": {
+                "projectPath": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Data/Data.csproj"
+              },
+              "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Domain/Domain.csproj": {
+                "projectPath": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Domain/Domain.csproj"
+              },
+              "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Service/Service.csproj": {
+                "projectPath": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Service/Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Data/Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Data/Data.csproj",
+        "projectName": "Data",
+        "projectPath": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Data/Data.csproj",
+        "packagesPath": "/home/leandro/.nuget/packages/",
+        "outputPath": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/leandro/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Domain/Domain.csproj": {
+                "projectPath": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Domain/Domain.csproj",
+        "packagesPath": "/home/leandro/.nuget/packages/",
+        "outputPath": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/leandro/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Integration.Test/Api.Integration.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Integration.Test/Api.Integration.Test.csproj",
+        "projectName": "Api.Integration.Test",
+        "projectPath": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Integration.Test/Api.Integration.Test.csproj",
+        "packagesPath": "/home/leandro/.nuget/packages/",
+        "outputPath": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Integration.Test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/leandro/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Application/Application.csproj": {
+                "projectPath": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Application/Application.csproj"
+              },
+              "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.CrossCutting/CrossCutting.csproj": {
+                "projectPath": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.CrossCutting/CrossCutting.csproj"
+              },
+              "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Data/Data.csproj": {
+                "projectPath": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Data/Data.csproj"
+              },
+              "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Domain/Domain.csproj": {
+                "projectPath": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Faker.NETCore": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Microsoft.AspNetCore.TestHost": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Service/Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Service/Service.csproj",
+        "projectName": "Service",
+        "projectPath": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Service/Service.csproj",
+        "packagesPath": "/home/leandro/.nuget/packages/",
+        "outputPath": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/leandro/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Data/Data.csproj": {
+                "projectPath": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Data/Data.csproj"
+              },
+              "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Domain/Domain.csproj": {
+                "projectPath": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

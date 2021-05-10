@@ -1,0 +1,17 @@
+/home/leandro/repos/bitbucket/dotnet_sampleddd/src/Api.Domain/bin/Debug/netcoreapp3.0/Domain.deps.json
+/home/leandro/repos/bitbucket/dotnet_sampleddd/src/Api.Domain/bin/Debug/netcoreapp3.0/Domain.dll
+/home/leandro/repos/bitbucket/dotnet_sampleddd/src/Api.Domain/bin/Debug/netcoreapp3.0/Domain.pdb
+/home/leandro/repos/bitbucket/dotnet_sampleddd/src/Api.Domain/obj/Debug/netcoreapp3.0/Domain.csprojAssemblyReference.cache
+/home/leandro/repos/bitbucket/dotnet_sampleddd/src/Api.Domain/obj/Debug/netcoreapp3.0/Domain.AssemblyInfoInputs.cache
+/home/leandro/repos/bitbucket/dotnet_sampleddd/src/Api.Domain/obj/Debug/netcoreapp3.0/Domain.AssemblyInfo.cs
+/home/leandro/repos/bitbucket/dotnet_sampleddd/src/Api.Domain/obj/Debug/netcoreapp3.0/Domain.dll
+/home/leandro/repos/bitbucket/dotnet_sampleddd/src/Api.Domain/obj/Debug/netcoreapp3.0/Domain.pdb
+/home/leandro/repos/bitbucket/dotnetDDD/dotnet_sampleddd/src/Api.Domain/bin/Debug/netcoreapp3.0/Domain.deps.json
+/home/leandro/repos/bitbucket/dotnetDDD/dotnet_sampleddd/src/Api.Domain/bin/Debug/netcoreapp3.0/Domain.dll
+/home/leandro/repos/bitbucket/dotnetDDD/dotnet_sampleddd/src/Api.Domain/bin/Debug/netcoreapp3.0/Domain.pdb
+/home/leandro/repos/bitbucket/dotnetDDD/dotnet_sampleddd/src/Api.Domain/obj/Debug/netcoreapp3.0/Domain.csprojAssemblyReference.cache
+/home/leandro/repos/bitbucket/dotnetDDD/dotnet_sampleddd/src/Api.Domain/obj/Debug/netcoreapp3.0/Domain.AssemblyInfoInputs.cache
+/home/leandro/repos/bitbucket/dotnetDDD/dotnet_sampleddd/src/Api.Domain/obj/Debug/netcoreapp3.0/Domain.AssemblyInfo.cs
+/home/leandro/repos/bitbucket/dotnetDDD/dotnet_sampleddd/src/Api.Domain/obj/Debug/netcoreapp3.0/Domain.dll
+/home/leandro/repos/bitbucket/dotnetDDD/dotnet_sampleddd/src/Api.Domain/obj/Debug/netcoreapp3.0/Domain.pdb
+/home/leandro/repos/bitbucket/dotnetDDD/dotnet_sampleddd/src/Api.Domain/obj/Debug/netcoreapp3.0/Domain.csproj.CoreCompileInputs.cache

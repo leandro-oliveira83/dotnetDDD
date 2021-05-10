@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Wm1khERjLR+dsiigb8A2KV7RnH10PfO3Y3ZwEYRUXlUkFARHiDDLJZ2CHisi6/xsMzcml2Efe72Ab/ThVzDvNQ==",
+  "success": true,
+  "projectFilePath": "/home/leandro/www/repositories/bitbucket/dotnet_sampleddd/src/Api.Domain/Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/leandro/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/home/leandro/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.7.1/microsoft.identitymodel.jsonwebtokens.6.7.1.nupkg.sha512",
+    "/home/leandro/.nuget/packages/microsoft.identitymodel.logging/6.7.1/microsoft.identitymodel.logging.6.7.1.nupkg.sha512",
+    "/home/leandro/.nuget/packages/microsoft.identitymodel.tokens/6.7.1/microsoft.identitymodel.tokens.6.7.1.nupkg.sha512",
+    "/home/leandro/.nuget/packages/system.identitymodel.tokens.jwt/6.7.1/system.identitymodel.tokens.jwt.6.7.1.nupkg.sha512",
+    "/home/leandro/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

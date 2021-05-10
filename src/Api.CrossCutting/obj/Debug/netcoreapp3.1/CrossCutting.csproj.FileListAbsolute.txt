@@ -1,0 +1,16 @@
+/home/leandro/repos/bitbucket/dotnetDDD/dotnet_sampleddd/src/Api.CrossCutting/bin/Debug/netcoreapp3.1/CrossCutting.deps.json
+/home/leandro/repos/bitbucket/dotnetDDD/dotnet_sampleddd/src/Api.CrossCutting/bin/Debug/netcoreapp3.1/CrossCutting.dll
+/home/leandro/repos/bitbucket/dotnetDDD/dotnet_sampleddd/src/Api.CrossCutting/bin/Debug/netcoreapp3.1/CrossCutting.pdb
+/home/leandro/repos/bitbucket/dotnetDDD/dotnet_sampleddd/src/Api.CrossCutting/bin/Debug/netcoreapp3.1/Data.dll
+/home/leandro/repos/bitbucket/dotnetDDD/dotnet_sampleddd/src/Api.CrossCutting/bin/Debug/netcoreapp3.1/Domain.dll
+/home/leandro/repos/bitbucket/dotnetDDD/dotnet_sampleddd/src/Api.CrossCutting/bin/Debug/netcoreapp3.1/Service.dll
+/home/leandro/repos/bitbucket/dotnetDDD/dotnet_sampleddd/src/Api.CrossCutting/bin/Debug/netcoreapp3.1/Domain.pdb
+/home/leandro/repos/bitbucket/dotnetDDD/dotnet_sampleddd/src/Api.CrossCutting/bin/Debug/netcoreapp3.1/Service.pdb
+/home/leandro/repos/bitbucket/dotnetDDD/dotnet_sampleddd/src/Api.CrossCutting/bin/Debug/netcoreapp3.1/Data.pdb
+/home/leandro/repos/bitbucket/dotnetDDD/dotnet_sampleddd/src/Api.CrossCutting/obj/Debug/netcoreapp3.1/CrossCutting.csprojAssemblyReference.cache
+/home/leandro/repos/bitbucket/dotnetDDD/dotnet_sampleddd/src/Api.CrossCutting/obj/Debug/netcoreapp3.1/CrossCutting.AssemblyInfoInputs.cache
+/home/leandro/repos/bitbucket/dotnetDDD/dotnet_sampleddd/src/Api.CrossCutting/obj/Debug/netcoreapp3.1/CrossCutting.AssemblyInfo.cs
+/home/leandro/repos/bitbucket/dotnetDDD/dotnet_sampleddd/src/Api.CrossCutting/obj/Debug/netcoreapp3.1/CrossCutting.csproj.CoreCompileInputs.cache
+/home/leandro/repos/bitbucket/dotnetDDD/dotnet_sampleddd/src/Api.CrossCutting/obj/Debug/netcoreapp3.1/CrossCutting.csproj.CopyComplete
+/home/leandro/repos/bitbucket/dotnetDDD/dotnet_sampleddd/src/Api.CrossCutting/obj/Debug/netcoreapp3.1/CrossCutting.dll
+/home/leandro/repos/bitbucket/dotnetDDD/dotnet_sampleddd/src/Api.CrossCutting/obj/Debug/netcoreapp3.1/CrossCutting.pdb
